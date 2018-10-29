@@ -7,7 +7,8 @@ from django.views import View
 from main_app.forms import MyForm
 
 def login(request):
-    pass
+    print('这是登陆视图的业务处理')
+    return render(request)
 
 
 class IndexView(View):
