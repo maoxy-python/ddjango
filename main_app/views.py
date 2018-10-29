@@ -6,6 +6,9 @@ from django.views import View
 
 from main_app.forms import MyForm
 
+def login(request):
+    pass
+
 
 class IndexView(View):
     def get(self,request):
