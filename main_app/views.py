@@ -8,6 +8,8 @@ from main_app.forms import MyForm
 
 def login(request):
     print('这是登陆视图的业务处理')
+    print("我再次处理了登陆的视图")
+    print('我优化了登陆的业务逻辑')
     return render(request)
 
 
